@@ -17,7 +17,6 @@ float promedio(int array[], int size){
     float p = 0;
     for(int i = 0; i < size; i++){
         p += *(array + i);
-        //printf("p: %.6f\n", p);
     }
     //printf("p: %.6f\n", p);
     p/=size; 

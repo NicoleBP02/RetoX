@@ -6,11 +6,8 @@ float promedio(int array[], int size);
 int main(void){
     int arr[] = {5,4,3,2,6,7,3,12,8,1};
     int s = sizeof(arr)/sizeof(arr[0]);
-    //printf("size del arreglo:%i\n",s);
     float res = promedio(arr,s);
-
     printf("El promedio de los elementos del arreglo es: %.6f\n", res);
-
 }
 
 float promedio(int array[], int size){
@@ -20,6 +17,5 @@ float promedio(int array[], int size){
     }
     //printf("p: %.6f\n", p);
     p/=size; 
-    //printf("p: %.6f\n", p);
     return p;
 }
